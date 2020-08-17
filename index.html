@@ -8,22 +8,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+
+    <header class="navbar-fixed">
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="https://www.stardewvalley.net/" class="brand-logo">Eric D. Torres</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>Responsive Portfolio:</li>
+                        <li><a href="https://etorres-revature.github.io/Responsive_Portfolio/">Homepage</a></li>
+                        <li><a href="https://etorres-revature.github.io/Responsive_Portfolio/about_me.html ">About
+                                Me</a></li>
+                        <li><a
+                                href="https://etorres-revature.github.io/Responsive_Portfolio/portfolio.html">Portfolio</a>
+                        </li>
+                        <li><a href="https://etorres-revature.github.io/Responsive_Portfolio/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header> 
+
+    <a href="https://etorres-revature.github.io/Work_Day_Scheduler/" target="_blank" rel="noopener noreferrer">Please
+        use in conjunction with the Work Day Scheduler.</a>
+
+    <main class="container">
+        <section class="row">
             <div class="col s12">
                 <div id="main" class="card">
                     <div class="card-content">
                         <span class="card-title">Task List</span>
                         <div class="row">
                             <form action="" id="task-form">
-                            <div class="input-field col-12">
-                                <input type="text" name="task" id="task">
-                                <label for="task">New Task to add</label>
-                            </div>
-                            <input type="submit" value="Add Task" class="btn">
+                                <div class="input-field col-12">
+                                    <input type="text" name="task" id="task">
+                                    <label for="task">New Task to add</label>
+                                </div>
+                                <input type="submit" value="Add Task" class="btn">
                             </form>
                         </div>
                     </div>
@@ -34,12 +59,45 @@
                             <label for="filter">Filter Tasks</label>
                         </div>
                         <ul class="collection"></ul>
-                   <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+                        <a href="#" class="clear-tasks btn black">Clear Tasks</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <h3 class="white-text">Visit me on social media:</h5>
+                        <!-- <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
+                </div>
+                <div class="col l12 s12">
+                  <!-- <h5 class="white-text">Links</h5>
+                    <ul>  -->
+                    <a href="https://www.linkedin.com/in/ericdtorres/" class="fa fa-linkedin" target="_blank"
+                        rel="noopener noreferrer"></a>
+                    <a href="https://github.com/etorres-revature" class="fa fa-github" target="_blank"
+                        rel="noopener noreferrer"></a> 
+                     <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>  -->
+                    <!-- </ul> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l12 s12">
+                    <p id="e_mail">E-mail: <a href="mailto:etorresnotary@gmail.com">etorresnotary@gmail.com.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2020 Eric D. Torres Productions 
+                 <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+             </div>
+        </div>
+    </footer> 
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
