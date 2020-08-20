@@ -121,11 +121,12 @@ function clearTasks() {
     while (taskList.firstChild) {
         taskList.removeChild(taskList.firstChild);
     }
-
+    
+    if(confirm("Clear all tasks from this list?")){
+       //clear from local storage
+        clearTasksFromLocalStorage();
+    }
     //https://jsperf.com/innerhtml-vs-removechild
-
-    //clear from local storage
-    clearTasksFromLocalStorage();
 }
 
 //clear task from local storage
