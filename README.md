@@ -15,19 +15,19 @@ The four basic functions of persistent storage are:
 
 Collectively, these are known as the **CRUD** functions and are the basic elements of any relational database. This app does not utilize a realtional database, but it does use the **CRUD** functions.
 
-### CREATE ###
+### CREATE 
 
 ![Task List App - create](./assets/images/screenshots/task-list-create.png)
 
 The Task List app uses an input text box to capture tasks entered by the user.  Upon clicking the "ADD TASK" button the task is saved to local storage as a JSON string.  By using local storage the task can be persisted into memory, and will be available to the app until the local storage is emptied. 
 
-## READ ##
+### READ 
 
 ![Task List App - read](./assets/images/screenshots/task-list-read.png)
 
 The Task List app uses local storage to persist, or "remember", the items contained therein.  Then the tasks can be taken from local storage and rendered on the page in the order they were entered.  In this way the tasks in the Task List will be on display and avaialbe to be read by the users of the Task List app. 
 
-## UPDATE ##
+### UPDATE 
 
 ![Task List App - filter](./assets/images/screenshots/task-list-filter.png)
 
@@ -35,13 +35,15 @@ As the Task List grows, users can access the filter function to find specific ta
 
 Full update functionality coming to future versions of the Task List app.  
 
-## DELETE ##
+### DELETE 
 
 ![Task List App - delete](./assets/images/screenshots/task-list-delete.png)
 
 As tasks are completed, they can be removed one-at-a-time with the "x" opposite the listed task.  The Task List app will send an alert to the screen asking if you are sure to remove this Task List item.  If confirmed by clicking the "OK" button, the item will be removed from the list and from local storage.
 
+![Task List App - clear](./assets/images/screenshots/task-list-clear.png)
 
+Tasks can also be cleared wholesale with the "CLEAR TASKS" button.  This button clears local storage and removes all items fromt the Task List.
 
 For maximum efficiency, be sure to use the[Task List](https://etorres-revature.github.io/To_Do-Local_Storage/) in conjunciton with the [Work Day Scheduler](https://etorres-revature.github.io/Work_Day_Scheduler/) app.
 
