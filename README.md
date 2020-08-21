@@ -1,6 +1,6 @@
 # :clipboard: [To_Do-Local_Storage](https://etorres-revature.github.io/To_Do-Local_Storage/) :clipboard:
 
-The [Task List](https://etorres-revature.github.io/To_Do-Local_Storage/) app keeps track of to-do items.  You can enter new items.  Those items are staticly displayed in a list, which can be filtered to find certain to-do items.  And, items can be deleted: etiher one-at-a-time or all-at-once.
+The [Task List](https://etorres-revature.github.io/To_Do-Local_Storage/) app keeps track of to-do items.  You can enter new items.  Those items are statically displayed in a list, which can be filtered to find certain to-do items.  And, items can be deleted: etiher one-at-a-time or all-at-once.
 
 ![Task List App - blank](./assets/images/screenshots/blank-task-list-app.png)
 
@@ -43,21 +43,21 @@ As tasks are completed, they can be removed one-at-a-time with the "x" opposite 
 
 ![Task List App - clear](./assets/images/screenshots/task-list-clear.png)
 
-Tasks can also be cleared wholesale with the "CLEAR TASKS" button.  This button clears local storage and removes all items fromt the Task List.
+Tasks can also be cleared wholesale with the "CLEAR TASKS" button.  This button clears local storage and removes all items from the Task List.
 
-For maximum efficiency, be sure to use the[Task List](https://etorres-revature.github.io/To_Do-Local_Storage/) in conjunciton with the [Work Day Scheduler](https://etorres-revature.github.io/Work_Day_Scheduler/) app.
+For maximum efficiency, be sure to use the [Task List](https://etorres-revature.github.io/To_Do-Local_Storage/) in conjunciton with the [Work Day Scheduler](https://etorres-revature.github.io/Work_Day_Scheduler/) app.
 
 ### :computer: Technologies Used :computer:
 
 #### :memo: HTML5 :memo:
 
-**HTML 5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantic features are included.
+**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantic features are included.
 
 *HTML5* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/HTML5).</a>
 
 #### :art: CSS :art:
 
-**Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the secification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML) as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
+**Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the specification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML), as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
 Separation of formating and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
 
