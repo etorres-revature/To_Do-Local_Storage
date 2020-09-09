@@ -1,4 +1,4 @@
-# :clipboard: [To_Do-Local_Storage](https://etorres-revature.github.io/To_Do-Local_Storage/) :clipboard:
+# :clipboard: [To Do-Local Storage](https://etorres-revature.github.io/To_Do-Local_Storage/) :clipboard:
 
 The [Task List](https://etorres-revature.github.io/To_Do-Local_Storage/) app keeps track of to-do items.  You can enter new items.  Those items are statically displayed in a list, which can be filtered to find certain to-do items.  And, items can be deleted: etiher one-at-a-time or all-at-once.
 
